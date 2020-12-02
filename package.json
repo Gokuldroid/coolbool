@@ -8,8 +8,15 @@
   },
   "keywords": [
     "expression",
-    "eval"
+    "eval",
+    "boolean evaluator",
+    "boolean expression"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gokuldroid/coolbool.git"
+  },
   "author": "“Gokul (“gokuldroid.github.io”)",
-  "license": "MIT"
+  "license": "MIT",
+  "private": false
 }
