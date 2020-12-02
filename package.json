@@ -1,6 +1,6 @@
 {
-  "name": "coolbool",
-  "version": "1.0.0",
+  "name": "@lazyloop/coolbool",
+  "version": "1.0.1",
   "description": "Boolean expression evaluation engine",
   "main": "index.js",
   "scripts": {
