@@ -1,8 +1,8 @@
 class Stream {
   constructor(str, start, end) {
-    this.start = start || 0;
-    this.end = end || str.length;
-    this.str = str.substring(this.start, this.end);
+    this.str = str.substring(start || 0, end || str.length);
+    this.start = 0;
+    this.end = str.length;
     this.pos = 0;
   }
 
@@ -26,7 +26,7 @@ class Stream {
     return result.join('');
   }
 
-  blackHole(matcher) {
+  sink(matcher) {
     while(this.hasMore() && matcher(this.peek())) {
       this.poll();
     }

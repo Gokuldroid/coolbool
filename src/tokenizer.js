@@ -19,7 +19,7 @@ class Tokenizer {
     let stream = new Stream(this.str);
    
     while(stream.hasMore()) {
-      stream.blackHole(isSpace);
+      stream.sink(isSpace);
       switch(stream.peek()) {
         case TokenTypes.OPEN:
         case TokenTypes.CLOSE:
