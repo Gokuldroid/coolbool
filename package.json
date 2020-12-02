@@ -1,0 +1,15 @@
+{
+  "name": "coolbool",
+  "version": "1.0.0",
+  "description": "Boolean expression evaluation engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "expression",
+    "eval"
+  ],
+  "author": "“Gokul (“gokuldroid.github.io”)",
+  "license": "MIT"
+}
